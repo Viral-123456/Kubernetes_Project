@@ -1,7 +1,7 @@
 FROM  centos:latest
 MAINTAINER abc123@gmail.com
 # RUN yum install -y httpd \
-RUN apt install -y apache2
+RUN apt install -y apache2 \
  zip\
  unzip
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip /var/www/html/
