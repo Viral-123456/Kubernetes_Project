@@ -10,11 +10,11 @@ spec:
    template:
       metadata:
         labels:
-          app: mrdevops
+          app: devops
       spec:
        containers:
         - name: devops
-          image: vikashashoke/pipeline-demo
+          image: viral111/job1
           imagePullPolicy: Always
           ports:
           - containerPort: 80
